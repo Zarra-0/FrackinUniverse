@@ -11,8 +11,19 @@
  "infinite":false,
  "layers":[
         {
+         "draworder":"topdown",
+         "id":1,
+         "name":"background objects",
+         "objects":[],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":true,
+         "x":0,
+         "y":0
+        }, 
+        {
          "compression":"zlib",
-         "data":"eJzt20EKgzAQBdDEZfEKvUuP4v1P0QY662aESGre4qOoDA8Xn3HhVkrZEnnW8upNZm42Gcdoz3EiLCws81oetZT90xm9ac+PsrT59Wtqx0hcj8T9fWDXsbCw3M8SHfar4+J8lffCwsJyH0t0WG\/X2etYWFj+1WKvY2FhWcGi61hYWFius\/ieZmFhWcVix2RhYVnBoutYWFhWsOg6FhaWFSzZjLIcJ8LCwjKvZab\/srKe7Ow3BfXTIA==",
+         "data":"eJzt2zEKxDAMBEATPfHi5P8\/uXQpc+IICGuKxbgRg4ut5G2MsSXyid+TmZtNxvG2Z498WFhY6lpm5POW5bhmn3Gf58P9YGFhYUlYZtznfLh3ehcWFpa1LLqOhYWlg0XXsbCwdLDoOhYWFha9W+FdWFhY1rLoOhYWlg4WXcfCwtLBoutYWFhWt1Taa660783CwvJ\/Kv3Lynqys7+wmNh7",
          "encoding":"base64",
          "height":101,
          "id":2,
@@ -26,7 +37,7 @@
         }, 
         {
          "compression":"zlib",
-         "data":"eJzt1EEOwiAQBVDYu+6ud\/EWXrQHtMSw0GBTUtHGeSR\/QybwMos\/pZSmjsz5ka1TZ3re7U39Y69lpOed4\/aD3bCwsBzPJadryR5LnR1lKVka\/7Ysy0ADCwvL\/1l0HQsLSwSLrmNhYYlg0XUsLCwRLLqOhYWF5bsWvcvCwhLBoutYWFgiWHQdCwtLBIuuY2FhiWA5U9fN69slOT2nWF7v6iwLC8v5LS1PyzHSsrWbT+zkDqwzg70=",
+         "data":"eJzt21EKAiEUBVBj1jD7aQ8Rtv+VhAxCDFMogxa9I9wfET34cb90TSmtHbktWz6NuqZn397UM1otIz3vHPkLd8PCwnI+92XLY5di2c\/VtaMsJbnxXvJgBwsLy39ZdB0LC0sEi65jYWGJYNF1LCwsESy6joWFhWWuRe+ysLBEsOg6FhaWCBZdx8LCEsGi61hYWCJYfqnr6hvuS0rX1xTLfm7W23MWFpbzliPPkWPWP7EWS+\/eT5d5bG0=",
          "encoding":"base64",
          "height":101,
          "id":3,
@@ -300,6 +311,10 @@
         {
          "firstgid":750,
          "source":"..\/..\/..\/..\/..\/_UnpackedAssets\/tilesets\/packed\/huge-objects.json"
+        }, 
+        {
+         "firstgid":851,
+         "source":"..\/..\/..\/tilesets\/frackinuniverse-custom\/fu_playerstation.json"
         }],
  "tilewidth":8,
  "type":"map",

@@ -11,8 +11,19 @@
  "infinite":false,
  "layers":[
         {
+         "draworder":"topdown",
+         "id":1,
+         "name":"background objects",
+         "objects":[],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":true,
+         "x":0,
+         "y":0
+        }, 
+        {
          "compression":"zlib",
-         "data":"eJzt07sJACAQBNHVUG3Beu3GGhWswPODyASPSweW85I8AACfSE6K\/QaD7IbdLdXgVIvFqZaXNqKFlpmWYsBP39kIAIAVDdxYIBY=",
+         "data":"eJzt1LkNACAMBMEDUprlqYsaSWiATzJog8lXOtlekgcA4BPRSTVIeUEaTrc0zbvVUhbcarG0ES20vHpHlv6LhY0AANjRAZr6XwA=",
          "encoding":"base64",
          "height":35,
          "id":2,
@@ -26,7 +37,7 @@
         }, 
         {
          "compression":"zlib",
-         "data":"eJzt1CEOACAMBMFaHkD\/\/1QsmlaUZC4Zv+oyIhIAClbRlI7unh1vm9RyT4sWLf+3dP\/LtN+d0gHAnw7qwFmg",
+         "data":"eJzt1LEJADAIRFHBGRw0XcYPGUAIKOGEL7zK5lcXZhYAABQsr1Hp6O65stue\/363vB4ttNAyv6V7X9R2V6UDADDTAbqrdR0=",
          "encoding":"base64",
          "height":35,
          "id":3,
@@ -79,12 +90,6 @@
                  "height":72,
                  "id":2057,
                  "name":"",
-                 "properties":[
-                        {
-                         "name":"parameters",
-                         "type":"string",
-                         "value":"{ \"unbreakable\" : true }"
-                        }],
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -239,6 +244,10 @@
         {
          "firstgid":851,
          "source":"..\/..\/..\/..\/..\/_UnpackedAssets\/tilesets\/packed\/objects-by-colonytag\/station.json"
+        }, 
+        {
+         "firstgid":881,
+         "source":"..\/..\/..\/tilesets\/frackinuniverse-custom\/fu_playerstation.json"
         }],
  "tilewidth":8,
  "type":"map",

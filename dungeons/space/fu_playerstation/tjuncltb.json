@@ -11,8 +11,19 @@
  "infinite":false,
  "layers":[
         {
+         "draworder":"topdown",
+         "id":1,
+         "name":"background objects",
+         "objects":[],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":true,
+         "x":0,
+         "y":0
+        }, 
+        {
          "compression":"zlib",
-         "data":"eJzt2M0JgDAMBeC0x+IK7uY2ruVoJoeCB6tJNRrxHR6F0p+PUkJpJqJsyJj0sazbk0iWIdEycXsWGQcLLLDEtxTeQxtvi+ZMnjgXraPXUuu1zG2lKO\/IXZajdVuWeSdvWaSfp1LNdhwssMDyPYtXfYlQdy2JZLF4\/vZ+ifSugwUWWK4n0v+Lp2UFthDcxg==",
+         "data":"eJzt2DEOgCAMBdAGjqjW+99EHUwciP4C1RL\/8JcO8NKQpiGJSDJkyngs59YkkkX3O2YgSgsttAxhWTIebwvSkzf6gjpqLee8vus1+kZ6WZ7OLdVL7q8sR329RGmhhZahLV7zJcLctSSSxeL52\/4Saa+jhRZa2hPp\/8XTsgFJRraZ",
          "encoding":"base64",
          "height":35,
          "id":2,
@@ -26,7 +37,7 @@
         }, 
         {
          "compression":"zlib",
-         "data":"eJzt1kEKgDAMBMD4id78kP9\/kEdLwLIrriS4gb2FMPSQZkTEALNvV1Y196GzmczzGYvCgxjuTLbYYst\/LXk3rXIEHtbCONh6alFUZ4uybLHFlu8tlfZLRUuF\/0jp6X6\/MBbl\/dL5XWyxpasFMeXety3Zg1qY+Sf3EkqJ",
+         "data":"eJzt1kEKwDAIBEAhb8jLemn\/\/5EeG4SIWyrVZIU9BIIMHhK7iHRnjvbEqvGetzeSsT9iifB4DDMTLbTQsq9Fv01WTiCoBXGg9dYSUZUtkUXL\/5ar2edd57KyJdP7ktGS4T+K9FTfXxBL5P5SeS600FLV4jHpu19btMdrQfrfgyRwmw==",
          "encoding":"base64",
          "height":35,
          "id":3,
@@ -109,42 +120,6 @@
                  "width":72,
                  "x":104,
                  "y":288
-                }, 
-                {
-                 "gid":719,
-                 "height":8,
-                 "id":2047,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":40,
-                 "x":120,
-                 "y":208
-                }, 
-                {
-                 "gid":721,
-                 "height":40,
-                 "id":2049,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":72,
-                 "y":160
-                }, 
-                {
-                 "gid":719,
-                 "height":8,
-                 "id":2050,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":40,
-                 "x":120,
-                 "y":80
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -357,6 +332,10 @@
         {
          "firstgid":750,
          "source":"..\/..\/..\/..\/..\/_UnpackedAssets\/tilesets\/packed\/huge-objects.json"
+        }, 
+        {
+         "firstgid":851,
+         "source":"..\/..\/..\/tilesets\/frackinuniverse-custom\/fu_playerstation.json"
         }],
  "tilewidth":8,
  "type":"map",

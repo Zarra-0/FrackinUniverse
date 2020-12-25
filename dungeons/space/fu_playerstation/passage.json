@@ -11,8 +11,19 @@
  "infinite":false,
  "layers":[
         {
+         "draworder":"topdown",
+         "id":1,
+         "name":"background objects",
+         "objects":[],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":true,
+         "x":0,
+         "y":0
+        }, 
+        {
          "compression":"zlib",
-         "data":"eJzt1TEKgDAMhtG\/He0ZvP81pUjXOgjG4Q1vCoFvSnqSDgDFznYbqbMaliN742H+Zk+LFi1avmr5w92t\/kEAMF3zLhlb",
+         "data":"eJzt1U0KABAQQOGJI\/q7\/00kOwlRZhZv8S3UqGcBJyIOAABlwXdJURjEjXwwc7vvtWV1zt8tbV0mZnO00GKpxdI9OnXTYuHd1f6DAABoKoPfigs=",
          "encoding":"base64",
          "height":35,
          "id":2,
@@ -26,7 +37,7 @@
         }, 
         {
          "compression":"zlib",
-         "data":"eJzt1rENACAIBVFcgo7917R3AP9F75LX0yh0VbUk6apZeZQ5TsmIs5jZWxHeNvGvI6Hsx\/StIkk\/2lS+TlE=",
+         "data":"eJzt1jsKACAMBNGAZ8jJrLz\/ReyFtNklzsBrrALiJyMiAQCt9tJzmeOlzHEWmtsp9rdapxk5nG3Hu86Jy\/uo\/qsAwI8uaW1tiQ==",
          "encoding":"base64",
          "height":35,
          "id":3,
@@ -91,30 +102,6 @@
                  "width":32,
                  "x":-8,
                  "y":176
-                }, 
-                {
-                 "gid":721,
-                 "height":40,
-                 "id":2057,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":80,
-                 "y":160
-                }, 
-                {
-                 "gid":721,
-                 "height":40,
-                 "id":2058,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":192,
-                 "y":160
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -276,6 +263,10 @@
         {
          "firstgid":750,
          "source":"..\/..\/..\/..\/..\/_UnpackedAssets\/tilesets\/packed\/huge-objects.json"
+        }, 
+        {
+         "firstgid":851,
+         "source":"..\/..\/..\/tilesets\/frackinuniverse-custom\/fu_playerstation.json"
         }],
  "tilewidth":8,
  "type":"map",

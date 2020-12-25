@@ -11,8 +11,19 @@
  "infinite":false,
  "layers":[
         {
+         "draworder":"topdown",
+         "id":1,
+         "name":"background objects",
+         "objects":[],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":true,
+         "x":0,
+         "y":0
+        }, 
+        {
          "compression":"zlib",
-         "data":"eJzt2LEJACAMAMHEUlzB3RzV0YwTmAhCwC8eG4mHjWARkRKoq7\/I3JsyWZrKHLae2vuwYMGCJVK1M7z9dC9YsGDBggVLBgvvNBYsWH6wZPp\/eWlZZ6utfQ==",
+         "data":"eJzt2EEKgCAQRuFBj5hN979JtRRCZgLlB9\/i4S4\/JBUsZlYSHTVe5rt\/UrL4M0cL5FiwYMGS7KzxdloXLGPL6D9ZbXnH6yPHgkXcorSPlM4XLH3c01iwYNnBovT+MtNyAwMdijM=",
          "encoding":"base64",
          "height":35,
          "id":2,
@@ -26,7 +37,7 @@
         }, 
         {
          "compression":"zlib",
-         "data":"eJztzkEKgDAQA8D1E735\/296tBQqWVDwMIHcQphRVSPsedx9yrxLvzud\/zuWLzyJYWdiYWFhYWFhYWFhYWFhYWFh+bslMa3bty2rJ7V0\/i9Uvk5R",
+         "data":"eJzt1bEJwDAMRFFBZtBkaZL9F3EZYXA4GTsQ9A3XGHE81MjNzMWcx5O3F+fU7kxif8ayw6MYRiYsWLBg+ZvlSqTSXrBgmbHcA1f8r7gXLFgUC\/cICxYsWL61KKZ+drWl96iWTH8DVPh1Ww==",
          "encoding":"base64",
          "height":35,
          "id":3,
@@ -276,6 +287,10 @@
         {
          "firstgid":750,
          "source":"..\/..\/..\/..\/..\/_UnpackedAssets\/tilesets\/packed\/huge-objects.json"
+        }, 
+        {
+         "firstgid":851,
+         "source":"..\/..\/..\/tilesets\/frackinuniverse-custom\/fu_playerstation.json"
         }],
  "tilewidth":8,
  "type":"map",

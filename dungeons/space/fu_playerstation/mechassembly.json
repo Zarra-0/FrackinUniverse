@@ -11,8 +11,19 @@
  "infinite":false,
  "layers":[
         {
+         "draworder":"topdown",
+         "id":1,
+         "name":"background objects",
+         "objects":[],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":true,
+         "x":0,
+         "y":0
+        }, 
+        {
          "compression":"zlib",
-         "data":"eJzt1TEKACEMBdEc0cN4PzstzZEWwcpG+eDGYorXJTBNtJlZAwAgWJk8UFn0DT+YUfeUliy41VIFtNDyQstfd5Q2\/GBG3VtbXnh3o\/8gAACGDwTyqBs=",
+         "data":"eJzt1TEOgCAMRuEObEi9mrfmWsawdUDyJ1qGN3xbmzwGoJtZBwAgWS1DS1SD44UvzKh7Soty5q9aTgEttOzQ8tc9umzOF2bUvdiyw7ub\/QcBAPC4ARz6rXo=",
          "encoding":"base64",
          "height":35,
          "id":2,
@@ -26,7 +37,7 @@
         }, 
         {
          "compression":"zlib",
-         "data":"eJzt1iEOADAMQlHuf7DJZb6Xma9uBsm+eB5TaEkqAMBTO0BKjm4ZJWZxZgAwL+G2e9cdI\/fmJO+j+1cBgB9dHFjzWg==",
+         "data":"eJzt1qsNACAMRdEKHMGw\/zwM0WnwFQQI0CZccVybPNOPiogCAJ7KyV+UHFaTsTpRs9u3muWmCBkAnBdhtu2uK468b07k++j9qwDAjzoHBGax",
          "encoding":"base64",
          "height":35,
          "id":3,
@@ -43,29 +54,7 @@
          "draworder":"topdown",
          "id":4,
          "name":"mods",
-         "objects":[
-                {
-                 "height":8,
-                 "id":2069,
-                 "name":"",
-                 "properties":[
-                        {
-                         "name":"back",
-                         "type":"string",
-                         "value":"outpostwall2"
-                        }, 
-                        {
-                         "name":"colorVariant",
-                         "type":"string",
-                         "value":"7"
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":104,
-                 "x":88,
-                 "y":112
-                }],
+         "objects":[],
          "opacity":1,
          "type":"objectgroup",
          "visible":true,
@@ -119,12 +108,6 @@
                  "height":40,
                  "id":2060,
                  "name":"",
-                 "properties":[
-                        {
-                         "name":"parameters",
-                         "type":"string",
-                         "value":"{ \"unbreakable\" : true }"
-                        }],
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -149,12 +132,6 @@
                  "height":48,
                  "id":2062,
                  "name":"",
-                 "properties":[
-                        {
-                         "name":"parameters",
-                         "type":"string",
-                         "value":"{ \"unbreakable\" : true }"
-                        }],
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -173,30 +150,6 @@
                  "width":32,
                  "x":216,
                  "y":152
-                }, 
-                {
-                 "gid":465,
-                 "height":8,
-                 "id":2066,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":24,
-                 "x":184,
-                 "y":104
-                }, 
-                {
-                 "gid":465,
-                 "height":8,
-                 "id":2067,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":24,
-                 "x":72,
-                 "y":104
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -400,6 +353,10 @@
         {
          "firstgid":955,
          "source":"..\/..\/..\/..\/..\/_UnpackedAssets\/tilesets\/packed\/objects-by-category\/crafting.json"
+        }, 
+        {
+         "firstgid":1035,
+         "source":"..\/..\/..\/tilesets\/frackinuniverse-custom\/fu_playerstation.json"
         }],
  "tilewidth":8,
  "type":"map",
