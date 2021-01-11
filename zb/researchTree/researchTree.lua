@@ -196,13 +196,27 @@ end
 function researchButton()
 	if selected and researchTree[selected].state == "available" and canAfford(selected, true) then
 		researchTree[selected].state = "researched"
-
+		
+		local outputRules = getTreeOutputRules(selectedTree)
+		
 		if type(researchTree[selected].unlocks) == "table" then
-			for _, blueprint in ipairs(researchTree[selected].unlocks) do
-				player.giveBlueprint(blueprint)
+			if outputRules.blueprints then
+				for _, blueprint in ipairs(researchTree[selected].unlocks) do
+					player.giveBlueprint(blueprint)
+				end
+			end
+			if outputRules.items then
+				for _, item in ipairs(researchTree[selected].unlocks) do
+					player.giveItem(item)
+				end
 			end
 		elseif researchTree[selected].unlocks then
-			player.giveBlueprint(researchTree[selected].unlocks)
+			if outputRules.blueprints then
+				player.giveBlueprint(researchTree[selected].unlocks)
+			end
+			if outputRules.items then
+				player.giveItem(researchTree[selected].unlocks)
+			end
 		end
 
 		if researchTree[selected].func and _ENV[researchTree[selected].func] then
@@ -1006,6 +1020,17 @@ function getTreeConsumptionRules(tree)
 	return {
 		currency = data.customConsumptionRules[selectedTree].currency == nil or data.customConsumptionRules[selectedTree].currency == true,
 		items = data.customConsumptionRules[selectedTree].items == nil or data.customConsumptionRules[selectedTree].items == true
+	}
+end
+
+function getTreeOutputRules(tree)
+	if not data.customOutputRules[selectedTree] then
+		return {blueprints = true, items = false}
+	end
+
+	return {
+		blueprints = data.customOutputRules[selectedTree].blueprints,
+		items = data.customOutputRules[selectedTree].items
 	}
 end
 
