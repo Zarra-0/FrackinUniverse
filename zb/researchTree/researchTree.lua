@@ -380,6 +380,7 @@ function updateInfoPanel()
 							listItem = "infoList.unlocks."..widget.addListItem("infoList.unlocks")
 						end
 						widget.setItemSlotItem(listItem..".item"..(i-1)%9, {name = item})
+------------Needs to be able to handle tables----------------------
 						widget.setVisible(listItem..".item"..(i-1)%9, true)
 					end
 				else
