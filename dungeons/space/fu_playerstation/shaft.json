@@ -4,7 +4,7 @@
     {
      "export":
         {
-         "target":"..\/..\/..\/..\/..\/_UnpackedAssets\/dungeons\/space\/playerstation"
+         "target":"."
         }
     },
  "height":35,
@@ -37,7 +37,7 @@
         }, 
         {
          "compression":"zlib",
-         "data":"eJzt1bEJwDAMRFFBZtBkaZL9F3EZYXA4GTsQ9A3XGHE81MjNzMWcx5O3F+fU7kxif8ayw6MYRiYsWLBg+ZvlSqTSXrBgmbHcA1f8r7gXLFgUC\/cICxYsWL61KKZ+drWl96iWTH8DVPh1Ww==",
+         "data":"eJzt1bEJACAMRNGAMziZjftPYqkIygU0IP7AdeF4pEk2syympJ7djHtqtydjv8dyw6MYViYsWLBgec1SHfnpLliwYMGCJdbCP8KCBQuWWItimndPW2aPavH0N3I1dKM=",
          "encoding":"base64",
          "height":35,
          "id":3,
@@ -72,17 +72,16 @@
                  "height":25,
                  "id":2034,
                  "name":"",
-                 "properties":[
-                        {
-                         "name":"object",
-                         "type":"string",
-                         "value":"fu_expansionslothorizontal"
-                        }, 
-                        {
-                         "name":"parameters",
-                         "type":"string",
-                         "value":"{ \"expandDirection\" : [0, 1] }"
-                        }],
+                 "properties":
+                    {
+                     "object":"fu_expansionslothorizontal",
+                     "parameters":"{ \"expandDirection\" : [0, 1] }"
+                    },
+                 "propertytypes":
+                    {
+                     "object":"string",
+                     "parameters":"string"
+                    },
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -95,23 +94,46 @@
                  "height":25,
                  "id":2035,
                  "name":"",
-                 "properties":[
-                        {
-                         "name":"object",
-                         "type":"string",
-                         "value":"fu_expansionslothorizontal"
-                        }, 
-                        {
-                         "name":"parameters",
-                         "type":"string",
-                         "value":"{ \"expandDirection\" : [0, -1] }"
-                        }],
+                 "properties":
+                    {
+                     "object":"fu_expansionslothorizontal",
+                     "parameters":"{ \"expandDirection\" : [0, -1] }"
+                    },
+                 "propertytypes":
+                    {
+                     "object":"string",
+                     "parameters":"string"
+                    },
                  "rotation":0,
                  "type":"",
                  "visible":true,
                  "width":72,
                  "x":104,
                  "y":288
+                }, 
+                {
+                 "gid":468,
+                 "height":6,
+                 "id":2045,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":24,
+                 "x":128,
+                 "y":120
+                }, 
+                {
+                 "gid":468,
+                 "height":6,
+                 "id":2046,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":24,
+                 "x":128,
+                 "y":168
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -164,12 +186,14 @@
                  "height":16,
                  "id":2026,
                  "name":"",
-                 "properties":[
-                        {
-                         "name":"dungeonid",
-                         "type":"string",
-                         "value":"65532"
-                        }],
+                 "properties":
+                    {
+                     "dungeonid":"65532"
+                    },
+                 "propertytypes":
+                    {
+                     "dungeonid":"string"
+                    },
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -181,12 +205,14 @@
                  "height":16,
                  "id":2028,
                  "name":"",
-                 "properties":[
-                        {
-                         "name":"dungeonid",
-                         "type":"string",
-                         "value":"65532"
-                        }],
+                 "properties":
+                    {
+                     "dungeonid":"65532"
+                    },
+                 "propertytypes":
+                    {
+                     "dungeonid":"string"
+                    },
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -198,12 +224,14 @@
                  "height":248,
                  "id":2038,
                  "name":"",
-                 "properties":[
-                        {
-                         "name":"dungeonid",
-                         "type":"string",
-                         "value":"65532"
-                        }],
+                 "properties":
+                    {
+                     "dungeonid":"65532"
+                    },
+                 "propertytypes":
+                    {
+                     "dungeonid":"string"
+                    },
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -240,7 +268,7 @@
          "y":0
         }],
  "nextlayerid":12,
- "nextobjectid":2043,
+ "nextobjectid":2047,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.4.2",
@@ -248,31 +276,31 @@
  "tilesets":[
         {
          "firstgid":1,
-         "source":"..\/..\/..\/..\/..\/_UnpackedAssets\/tilesets\/packed\/miscellaneous.json"
+         "source":"..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/miscellaneous.json"
         }, 
         {
          "firstgid":25,
-         "source":"..\/..\/..\/..\/..\/_UnpackedAssets\/tilesets\/packed\/liquids.json"
+         "source":"..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/liquids.json"
         }, 
         {
          "firstgid":53,
-         "source":"..\/..\/..\/..\/..\/_UnpackedAssets\/tilesets\/packed\/supports.json"
+         "source":"..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/supports.json"
         }, 
         {
          "firstgid":90,
-         "source":"..\/..\/..\/..\/..\/_UnpackedAssets\/tilesets\/packed\/objects-by-category\/playerstation.json"
+         "source":"..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-category\/playerstation.json"
         }, 
         {
          "firstgid":95,
-         "source":"..\/..\/..\/..\/..\/_UnpackedAssets\/tilesets\/packed\/materials.json"
+         "source":"..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/materials.json"
         }, 
         {
          "firstgid":292,
-         "source":"..\/..\/..\/..\/..\/_UnpackedAssets\/tilesets\/packed\/objects-by-category\/light.json"
+         "source":"..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-category\/light.json"
         }, 
         {
          "firstgid":750,
-         "source":"..\/..\/..\/..\/..\/_UnpackedAssets\/tilesets\/packed\/huge-objects.json"
+         "source":"..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/huge-objects.json"
         }, 
         {
          "firstgid":851,
@@ -280,6 +308,6 @@
         }],
  "tilewidth":8,
  "type":"map",
- "version":1.4,
+ "version":1.1,
  "width":35
 }

@@ -1,101 +1,86 @@
-{ "margin":0,
+{
  "name":"fu_playerstation",
- "properties":
-    {},
+ 
+ "columns":0,
+ "margin":0,
  "spacing":0,
- "tilecount":8,
+ 
  "tileheight":8,
+ "tilewidth":8,
+ 
+ "tilecount":6,
+ "type":"tileset",
+ 
  "tileproperties":
     {
      "0":
         {
-         "\/\/description":"Paint with the station's hull in either foreground or background",
-         "\/\/shortdescription":"Station Hull",
+         "//description":"Paint with the station's hull in either foreground or background",
+         "//shortdescription":"Station Hull",
          "allowOverdrawing":"true",
          "surface":"0"
         },
      "1":
         {
-         "\/\/description":"Paint with the station's back wall in either foreground or background",
-         "\/\/shortdescription":"Station Wall",
+         "//description":"Paint with the station's back wall in either foreground or background",
+         "//shortdescription":"Station Wall",
          "allowOverdrawing":"true",
          "surface":"1"
         },
      "2":
         {
-         "\/\/description":"Paint with the station's horizontal support in either foreground or background",
-         "\/\/shortdescription":"Station Support (Horizontal)",
+         "//description":"Paint with the station's horizontal support in either foreground or background",
+         "//shortdescription":"Station Support (Horizontal)",
          "allowOverdrawing":"true",
          "surface":"2"
         },
      "3":
         {
-         "\/\/description":"Paint with the station's vertical support in either foreground or background",
-         "\/\/shortdescription":"Station Support (Vertical)",
+         "//description":"Paint with the station's vertical support in either foreground or background",
+         "//shortdescription":"Station Support (Vertical)",
          "allowOverdrawing":"true",
          "surface":"3"
         },
      "4":
         {
-         "\/\/description":"Paint with the station's glass tile in either foreground or background",
-         "\/\/shortdescription":"Station Glass",
+         "//description":"Paint with the station's glass tile in either foreground or background",
+         "//shortdescription":"Station Glass",
          "allowOverdrawing":"true",
          "surface":"4"
         },
      "5":
         {
-         "\/\/description":"Paint with the station's platform in either foreground or background",
-         "\/\/shortdescription":"Station Platform",
+         "//description":"Paint with the station's platform in either foreground or background",
+         "//shortdescription":"Station Platform",
          "allowOverdrawing":"true",
          "surface":"5"
-        },
-     "6":
-        {
-         "\/\/description":"Place a wall-mounted light (biome item) here",
-         "\/\/shortdescription":"Wall-Mounted Light",
-         "biomeitems":""
-        },
-     "7":
-        {
-         "\/\/description":"Place a ceiling-mounted light (biome tree) here",
-         "\/\/shortdescription":"Ceiling-Mounted Light",
-         "biometree":""
         }
     },
  "tiles":
     {
      "0":
         {
-         "image":"..\/..\/..\/..\/tiled\/frackinuniverse-custom\/materials\/fu_playerstation\/01.png"
+         "image":"../../tiled/frackinuniverse-custom/materials/fu_playerstation/01.png"
         },
      "1":
         {
-         "image":"..\/..\/..\/..\/tiled\/frackinuniverse-custom\/materials\/fu_playerstation\/02.png"
+         "image":"../../tiled/frackinuniverse-custom/materials/fu_playerstation/02.png"
         },
      "2":
         {
-         "image":"..\/..\/..\/..\/tiled\/frackinuniverse-custom\/materials\/fu_playerstation\/03.png"
+         "image":"../../tiled/frackinuniverse-custom/materials/fu_playerstation/03.png"
         },
      "3":
         {
-         "image":"..\/..\/..\/..\/tiled\/frackinuniverse-custom\/materials\/fu_playerstation\/04.png"
+         "image":"../../tiled/frackinuniverse-custom/materials/fu_playerstation/04.png"
         },
      "4":
         {
-         "image":"..\/..\/..\/..\/tiled\/frackinuniverse-custom\/materials\/fu_playerstation\/05.png"
+         "image":"../../tiled/frackinuniverse-custom/materials/fu_playerstation/05.png"
         },
      "5":
         {
-         "image":"..\/..\/..\/..\/tiled\/frackinuniverse-custom\/materials\/fu_playerstation\/06.png"
-        },
-     "6":
-        {
-         "image":"..\/..\/..\/..\/tiled\/frackinuniverse-custom\/materials\/fu_playerstation\/07.png"
-        },
-     "7":
-        {
-         "image":"..\/..\/..\/..\/tiled\/frackinuniverse-custom\/materials\/fu_playerstation\/08.png"
+         "image":"../../tiled/frackinuniverse-custom/materials/fu_playerstation/06.png"
         }
-    },
- "tilewidth":8
+    }
 }
