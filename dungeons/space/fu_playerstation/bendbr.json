@@ -74,6 +74,11 @@
                  "name":"",
                  "properties":[
                         {
+                         "name":"object",
+                         "type":"string",
+                         "value":"fu_expansionslot"
+                        }, 
+                        {
                          "name":"parameters",
                          "type":"string",
                          "value":"{ \"expandDirection\" : [1, 0] }"
@@ -91,6 +96,11 @@
                  "id":2035,
                  "name":"",
                  "properties":[
+                        {
+                         "name":"object",
+                         "type":"string",
+                         "value":"fu_expansionslothorizontal"
+                        }, 
                         {
                          "name":"parameters",
                          "type":"string",
