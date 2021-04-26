@@ -1,0 +1,27 @@
+{
+  "itemName" : "funovakidblueprintm",
+  "price" : 1500,
+  "rarity" : "legendary",
+  "description" : "The blueprints for power-boosting Novakid armour.",
+  "shortdescription" : "Novakid Schematics (Power)",
+  "tooltipKind" : "base",
+  "category" : "Blueprint",
+  "twoHanded" : true,
+
+  "inventoryIcon" : "furacialblueprintm.png",
+
+  "animation" : "randomblueprint.animation",
+
+  "scripts" : ["furacialblueprint.lua"],
+
+  "swingTime" : 0.15,
+
+  "recipes" : [
+    "novatier1head", "novatier1chest", "novatier1pants",
+    "novatier2head", "novatier2chest", "novatier2pants",
+    "novatier3head", "novatier3chest", "novatier3pants",
+    "novatier4head", "novatier4chest", "novatier4pants",
+    "novatier5mhead", "novatier5mchest", "novatier5mpants",
+    "novatier6mhead", "novatier6mchest", "novatier6mpants"
+  ]
+}
