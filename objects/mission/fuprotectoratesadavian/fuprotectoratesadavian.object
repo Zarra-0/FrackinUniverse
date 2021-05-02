@@ -1,0 +1,47 @@
+{
+  "objectName" : "fuprotectoratesadavian",
+  "colonyTags" : ["protectorate"],
+  "rarity" : "common",
+  "description" : "A Protectorate Avian in search of Occulemonade.",
+  "shortdescription" : "Sad Protectorate Avian",
+  "race" : "protectorate",
+  "printable" : false,
+  "scannable" : false,
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "fuprotectoratesadavian.png",
+      "direction" : "right",
+      "imagePosition" : [-4, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "animation" : "fuprotectoratesadavian.animation",
+  "animationPosition" : [0, 0],
+  "animationParts" : {
+    "avian" : "fuprotectoratesadavian.png"
+  },
+  "forceFinishAnimationsInInit" : false,
+
+  "scripts" : ["fuprotectoratesadavian.lua"],
+  "scriptDelta" : 10,
+
+  "detectArea" : [ [-8, 0], [14, 6] ],
+
+  "mouthPosition" : [-1.25, -3],
+  "chatBefore" : [
+    "The vending machine swallowed my pixels. Could this day get any worse?",
+    "A nice cold can of Oculemonade, just beyond my reach..."
+  ],
+  "chatAfter" : [
+    "Oh, for me? Thank you so much!",
+    "Thanks to you, this might be a good day after all!",
+    "I don't think we've met before today. What's your name?",
+    "Good to meet you, <entityname>!",
+    "So long as there's kind souls like you out there, I think the Protectorate will be just fine."
+  ]
+}

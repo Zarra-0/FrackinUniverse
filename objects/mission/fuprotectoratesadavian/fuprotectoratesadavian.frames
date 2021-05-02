@@ -1,0 +1,15 @@
+{
+  "frameGrid" : {
+    "size" : [24, 32],
+    "dimensions" : [8, 1],
+    "names" : [
+      [ "idle", "blink", "cry.1", "cry.2", "cry.3", "cry.4", "cry.5", "cry.6" ]
+    ]
+  },
+
+  "aliases" : {
+    "default" : "idle",
+    "cry" : "cry.1",
+    "cry.default" : "cry.1"
+  }
+}
