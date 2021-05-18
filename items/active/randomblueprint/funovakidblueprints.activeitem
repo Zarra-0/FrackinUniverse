@@ -7,6 +7,7 @@
   "tooltipKind" : "base",
   "category" : "Blueprint",
   "twoHanded" : true,
+  "maxStack" : 1,
 
   "inventoryIcon" : "furacialblueprints.png",
 
