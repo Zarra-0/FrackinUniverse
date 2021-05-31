@@ -27,7 +27,7 @@
     {
       "imageLayers" : [ { "image" : "fu_crewbed0.png:<color>"} ],
       "flipImages" : true,
-      "imagePosition" : [-24, 8],
+      "imagePosition" : [-24, 0],
       "frames" : 1,
       "animationCycle" : 1.0,
       
@@ -36,11 +36,14 @@
       "spaceScan" : 0.1,
       "anchors" : [ "background" ],
       "direction" : "left",
-      "collision" : "platform"
+      "collision" : "platform",
+      "collisionSpaces": [ 
+        [-3, 0], [-2, 0], [-1, 0], [0, 0], [1, 0], [2, 0]
+      ]
     },
     {
       "imageLayers" : [ { "image" : "fu_crewbed0.png:<color>" }],
-      "imagePosition" : [-24, 8],
+      "imagePosition" : [-24, 0],
       "frames" : 1,
       "animationCycle" : 1.0,
       
@@ -49,7 +52,10 @@
       "spaceScan" : 0.1,
       "anchors" : [ "background" ],
       "direction" : "right",
-      "collision" : "platform"
+      "collision" : "platform",
+      "collisionSpaces": [ 
+        [-3, 0], [-2, 0], [-1, 0], [0, 0], [1, 0], [2, 0]
+      ]
     }
     
   ],
