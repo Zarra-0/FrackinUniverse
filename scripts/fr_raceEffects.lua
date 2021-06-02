@@ -95,7 +95,10 @@ function update(dt)
 
 	-- Update stuff
 	--self.helper:clearPersistent()
-	self.helper:applyControlModifiers()
+	if self and self.helper then
+		--khe's note. never, ever, fucking, ever send this without parameters. the script previously assumed defaults. THIS IS NOT CORRECT BEHAVIOR. modifiers were stacking from multiple contexts.
+		self.helper:applyControlModifiers(self.helper.controlModifiers,self.helper.controlParameters)
+	end
 	self.helper:runScripts("racialscript", self, dt)
 
 	-- Breath handling
@@ -111,3 +114,7 @@ function update(dt)
 		end
 	end
 end
+
+--function getLevelByExp(exp)
+--    return math.floor((math.sqrt(3) * math.sqrt(243*(exp+1)^2-48600*(exp+1)+3680000)+27 * (exp+1)-2700)^(1/3)/30^(2/3)-(5*10^(2/3))/(3^(1/3)*(math.sqrt(3)*math.sqrt(243*(exp+1)^2-48600*(exp+1)+3680000)+27*(exp+1)-2700)^(1/3))+2)
+--end

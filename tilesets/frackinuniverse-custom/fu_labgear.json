@@ -3,7 +3,7 @@
  "properties":
     {},
  "spacing":0,
- "tilecount":151,
+ "tilecount":152,
  "tileheight":279,
   "tileproperties" : {
       "0" : {
@@ -138,7 +138,7 @@
       },   
       "26" : {
           "object" : "fuokeahitechsofa",
-          "imagePositionX" : "-24",
+          "imagePositionX" : "-16",
           "imagePositionY" : "0"
       },
       "27" : {
@@ -768,7 +768,13 @@
           "imagePositionY" : "0",
           "object" : "apexcooldoorshoot",
           "tilesetDirection" : "right"
-      }                           
+      },       
+      "151" : {
+          "imagePositionX" : "0",
+          "imagePositionY" : "0",
+          "object" : "scienceinfobooth",
+          "tilesetDirection" : "left"
+      }                                
     },
       
  "tiles":
@@ -1323,23 +1329,23 @@
         }, 
      "137":
         {
-         "image":"../../tiled/frackinuniverse-custom/objects/fu_NFPA_gasoline_Mikenno.png"
+         "image":"../../tiled/frackinuniverse-custom/objects/fu_NFPA_gasoline.png"
         }, 
      "138":
         {
-         "image":"../../tiled/frackinuniverse-custom/objects/fu_NFPA_precursor_fluid_Mikenno.png"
+         "image":"../../tiled/frackinuniverse-custom/objects/fu_NFPA_precursor_fluid.png"
         }, 
      "139":
         {
-         "image":"../../tiled/frackinuniverse-custom/objects/fu_NFPA_sulfuric_Mikenno.png"
+         "image":"../../tiled/frackinuniverse-custom/objects/fu_NFPA_sulfuric.png"
         }, 
      "140":
         {
-         "image":"../../tiled/frackinuniverse-custom/objects/fu_NFPA_sulfuric_Mikenno.png"
+         "image":"../../tiled/frackinuniverse-custom/objects/fu_NFPA_uranium.png"
         }, 
      "141":
         {
-         "image":"../../tiled/frackinuniverse-custom/objects/fu_staythefuckoutsign_Mikenno.png"
+         "image":"../../tiled/frackinuniverse-custom/objects/fu_staythefuckoutsign.png"
         }, 
      "142":
         {
@@ -1376,7 +1382,11 @@
      "150":
         {
          "image":"../../tiled/frackinuniverse-custom/objects/apexcooldoorshoot.png"
-        }                             
+        }, 
+     "151":
+        {
+         "image":"../../tiled/frackinuniverse-custom/objects/scienceinfoboothbase.png"
+        }                              
     },
  "tilewidth":285
 }      
