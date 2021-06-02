@@ -1,22 +1,8 @@
 { "backgroundcolor":"#000000",
  "compressionlevel":-1,
- "editorsettings":
-    {
-    },
  "height":101,
  "infinite":false,
  "layers":[
-        {
-         "draworder":"topdown",
-         "id":1,
-         "name":"background objects",
-         "objects":[],
-         "opacity":1,
-         "type":"objectgroup",
-         "visible":true,
-         "x":0,
-         "y":0
-        }, 
         {
          "compression":"zlib",
          "data":"eJzt2zEKxDAMBEATPfHi5P8\/uXQpc+IICGuKxbgRg4ut5G2MsSXyid+TmZtNxvG2Z498WFhY6lpm5POW5bhmn3Gf58P9YGFhYUlYZtznfLh3ehcWFpa1LLqOhYWlg0XXsbCwdLDoOhYWFha9W+FdWFhY1rLoOhYWlg4WXcfCwtLBoutYWFhWt1Taa660783CwvJ\/Kv3Lynqys7+wmNh7",
@@ -68,17 +54,16 @@
                  "height":25,
                  "id":2034,
                  "name":"",
-                 "properties":[
-                        {
-                         "name":"object",
-                         "type":"string",
-                         "value":"fu_expansionslothorizontal"
-                        }, 
-                        {
-                         "name":"parameters",
-                         "type":"string",
-                         "value":"{ \"expandDirection\" : [0, 1] }"
-                        }],
+                 "properties":
+                    {
+                     "object":"fu_expansionslothorizontal",
+                     "parameters":"{ \"expandDirection\" : [0, 1] }"
+                    },
+                 "propertytypes":
+                    {
+                     "object":"string",
+                     "parameters":"string"
+                    },
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -91,17 +76,16 @@
                  "height":25,
                  "id":2035,
                  "name":"",
-                 "properties":[
-                        {
-                         "name":"object",
-                         "type":"string",
-                         "value":"fu_expansionslothorizontal"
-                        }, 
-                        {
-                         "name":"parameters",
-                         "type":"string",
-                         "value":"{ \"expandDirection\" : [0, -1] }"
-                        }],
+                 "properties":
+                    {
+                     "object":"fu_expansionslothorizontal",
+                     "parameters":"{ \"expandDirection\" : [0, -1] }"
+                    },
+                 "propertytypes":
+                    {
+                     "object":"string",
+                     "parameters":"string"
+                    },
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -208,12 +192,14 @@
                  "height":16,
                  "id":2026,
                  "name":"",
-                 "properties":[
-                        {
-                         "name":"dungeonid",
-                         "type":"string",
-                         "value":"65532"
-                        }],
+                 "properties":
+                    {
+                     "dungeonid":"65532"
+                    },
+                 "propertytypes":
+                    {
+                     "dungeonid":"string"
+                    },
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -225,12 +211,14 @@
                  "height":16,
                  "id":2028,
                  "name":"",
-                 "properties":[
-                        {
-                         "name":"dungeonid",
-                         "type":"string",
-                         "value":"65532"
-                        }],
+                 "properties":
+                    {
+                     "dungeonid":"65532"
+                    },
+                 "propertytypes":
+                    {
+                     "dungeonid":"string"
+                    },
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -242,12 +230,14 @@
                  "height":776,
                  "id":2038,
                  "name":"",
-                 "properties":[
-                        {
-                         "name":"dungeonid",
-                         "type":"string",
-                         "value":"65532"
-                        }],
+                 "properties":
+                    {
+                     "dungeonid":"65532"
+                    },
+                 "propertytypes":
+                    {
+                     "dungeonid":"string"
+                    },
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -257,7 +247,7 @@
                 }],
          "opacity":1,
          "type":"objectgroup",
-         "visible":false,
+         "visible":true,
          "x":0,
          "y":0
         }, 
@@ -287,7 +277,7 @@
  "nextobjectid":2049,
  "orientation":"orthogonal",
  "renderorder":"right-down",
- "tiledversion":"1.4.2",
+ "tiledversion":"1.5.0",
  "tileheight":8,
  "tilesets":[
         {
@@ -324,6 +314,6 @@
         }],
  "tilewidth":8,
  "type":"map",
- "version":1.4,
+ "version":1.1,
  "width":35
 }

@@ -1,26 +1,8 @@
 { "backgroundcolor":"#000000",
  "compressionlevel":-1,
- "editorsettings":
-    {
-     "export":
-        {
-         "target":"."
-        }
-    },
  "height":101,
  "infinite":false,
  "layers":[
-        {
-         "draworder":"topdown",
-         "id":1,
-         "name":"background objects",
-         "objects":[],
-         "opacity":1,
-         "type":"objectgroup",
-         "visible":true,
-         "x":0,
-         "y":0
-        }, 
         {
          "compression":"zlib",
          "data":"eJzt3EtuQkEMRFEES0xC9r+TfCSkCJHHA9qusn0HNca6hxFSczwcDsdiezvtn\/rWKcMkZx8n\/dQNnHb+7vFusDMuv7u0UHv8vUPdRO3haDLV5b8WLibTXO61cDGZ4rK3hYtJd5dHW7iYdHV5toWLSTeXV1u4mHRxWdXCxaS6y+oWLiZVXaJauJhUc4lu4WJSxSWrhYuJu0t2CxcTVxdVCxcTNxd1CxcTFxeXFk53VPfoaKJycW3hdEdVj84mWS5VWjjdUc1jgkmUS9UWTndU8ZhkssqlSwunO9w9Jpo869K1hdMdrh6TTfa6TGnhdMeWh\/qtweTd8lB+V38++9Ng6gaYYIIJJphgggkmmGCCCSaYYIJJPZPL\/5Ko71F7OJhc\/1eM+h61ByaYYIIJJphgggkmmGCCCSaYVDDh9y4fE36DxAQTTDDBBBNMMMEEE0wwwQSTuibKd1pn0ec63cF7Rq87HN+ZTjbZ46FwmWryiEe2y0STZzwyXaaZvOKR5TLJZIVHhssUk5Ue0S4TTCI8Il26m0R6RLl0NsnwiHDpapLpsdqlo4nCY6VLNxOlxyqXTiZqi1UuXUzUBitdOpio2692qW6ibh7hUtlE3TrKpaqJunGkS0UTddtol2om6qYZLpVM1C2zXKqYqBtmulQwUbfLdnE3UTdTuDibqFupXFxN1I2ULo4m6jZqFzcTdROHOZmoWzhN\/c7h3nsDtr3r\/4rZmvrWKetu8gWenPOs",
@@ -2843,7 +2825,7 @@
  "nextobjectid":2223,
  "orientation":"orthogonal",
  "renderorder":"right-down",
- "tiledversion":"1.4.2",
+ "tiledversion":"1.5.0",
  "tileheight":8,
  "tilesets":[
         {

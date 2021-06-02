@@ -5,7 +5,7 @@
  "layers":[
         {
          "compression":"zlib",
-         "data":"eJzt2DkOgDAMBEArvJjjgTyNUNAg+RSxDGyxrXdEYUc0or05M09EWrwzI7E4Mj1nlt7FJcsACyxvt6y9k8ufv4tkyfZolqgnsq8tFqvn6o\/eDqvF4rnfMW7O5uiUIs2BBRZYnrdk7hNuv3j27khLpTsUTSWL5sm24F0HCyzfsFT7\/zLKcQApkQ55",
+         "data":"eJzt1kEKwCAMRNFgL9lW73+OdhMIQqFJjVNhFn\/\/UDQpIlIYc7Rv+P7i6D0nMHWopd4dgGrA0hKiZT2Lvie0xUYLLbTkW7LnkQ09p9ncXcrOurc7bsYu1c\/dyO5NCy0eS+S9ZFm8PZ3jV8vIO0VYRv51M+5zZcsFxts6dQ==",
          "encoding":"base64",
          "height":35,
          "id":2,
@@ -19,7 +19,7 @@
         }, 
         {
          "compression":"zlib",
-         "data":"eJzt1rEOwCAIBFCSfoMf6v8vxq0TPY6CSXuXMBnxTeAwsxGseZmbfR7tydR+B7F0eGSRRZb\/Wqo9iKXLg1pYz\/0OWmjQfqyjysMke\/\/tyONHHj9f85yaJdl5V+lhdkTEUr0TEU+1JeLpsKB\/BllkkUWWjOfJwvRd7HmQWQ==",
+         "data":"eJztl0EKwCAMBBf6B9\/WQ\/1gX1k8CCIoTchiK7swJxEHxZAkAEkIA+cBXAsp51ePL7i0rIxc5CKXPV0URdkr9W\/nCWX9Rjx9jXtTZ0Z7WDDu2kLbYzJdLH0308U6A7BcPPOIXP7hElkDvC5eH5ZL9JvKJdblAZ1uek0=",
          "encoding":"base64",
          "height":35,
          "id":3,
@@ -36,7 +36,28 @@
          "draworder":"topdown",
          "id":4,
          "name":"mods",
-         "objects":[],
+         "objects":[
+                {
+                 "height":8,
+                 "id":2133,
+                 "name":"",
+                 "properties":
+                    {
+                     "material":"dirt",
+                     "mod":"grass"
+                    },
+                 "propertytypes":
+                    {
+                     "material":"string",
+                     "mod":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":168,
+                 "x":80,
+                 "y":168
+                }],
          "opacity":1,
          "type":"objectgroup",
          "visible":true,
@@ -50,31 +71,9 @@
          "name":"objects",
          "objects":[
                 {
-                 "gid":90,
+                 "gid":53,
                  "height":65,
-                 "id":2032,
-                 "name":"",
-                 "properties":
-                    {
-                     "object":"fu_expansionslot",
-                     "parameters":"{ \"expandDirection\" : [1, 0] }"
-                    },
-                 "propertytypes":
-                    {
-                     "object":"string",
-                     "parameters":"string"
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":32,
-                 "x":256,
-                 "y":176
-                }, 
-                {
-                 "gid":90,
-                 "height":65,
-                 "id":2033,
+                 "id":2106,
                  "name":"",
                  "properties":
                     {
@@ -94,14 +93,14 @@
                  "y":176
                 }, 
                 {
-                 "gid":92,
-                 "height":25,
-                 "id":2034,
+                 "gid":53,
+                 "height":65,
+                 "id":2107,
                  "name":"",
                  "properties":
                     {
-                     "object":"fu_expansionslothorizontal",
-                     "parameters":"{ \"expandDirection\" : [0, 1] }"
+                     "object":"fu_expansionslot",
+                     "parameters":"{ \"expandDirection\" : [1, 0] }"
                     },
                  "propertytypes":
                     {
@@ -111,14 +110,14 @@
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":72,
-                 "x":104,
-                 "y":24
+                 "width":32,
+                 "x":256,
+                 "y":176
                 }, 
                 {
-                 "gid":92,
+                 "gid":55,
                  "height":25,
-                 "id":2035,
+                 "id":2126,
                  "name":"",
                  "properties":
                     {
@@ -138,52 +137,64 @@
                  "y":288
                 }, 
                 {
-                 "gid":468,
-                 "height":6,
-                 "id":2128,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":24,
-                 "x":128,
-                 "y":72
-                }, 
-                {
-                 "gid":468,
-                 "height":6,
-                 "id":2129,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":24,
-                 "x":128,
-                 "y":216
-                }, 
-                {
                  "gid":465,
                  "height":8,
-                 "id":2132,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":24,
-                 "x":224,
-                 "y":120
-                }, 
-                {
-                 "gid":465,
-                 "height":8,
-                 "id":2133,
+                 "id":2148,
                  "name":"",
                  "rotation":0,
                  "type":"",
                  "visible":true,
                  "width":24,
                  "x":32,
-                 "y":120
+                 "y":192
+                }, 
+                {
+                 "gid":465,
+                 "height":8,
+                 "id":2149,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":24,
+                 "x":128,
+                 "y":192
+                }, 
+                {
+                 "gid":465,
+                 "height":8,
+                 "id":2150,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":24,
+                 "x":40,
+                 "y":56
+                }, 
+                {
+                 "gid":465,
+                 "height":8,
+                 "id":2151,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":24,
+                 "x":216,
+                 "y":56
+                }, 
+                {
+                 "gid":465,
+                 "height":8,
+                 "id":2152,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":24,
+                 "x":128,
+                 "y":56
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -233,160 +244,8 @@
          "name":"outside the map",
          "objects":[
                 {
-                 "height":8,
-                 "id":2052,
-                 "name":"",
-                 "properties":
-                    {
-                     "dungeonid":"65532"
-                    },
-                 "propertytypes":
-                    {
-                     "dungeonid":"string"
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":96,
-                 "x":104,
-                 "y":104
-                }, 
-                {
-                 "height":8,
-                 "id":2060,
-                 "name":"",
-                 "properties":
-                    {
-                     "dungeonid":"65532"
-                    },
-                 "propertytypes":
-                    {
-                     "dungeonid":"string"
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":64,
-                 "x":112,
-                 "y":80
-                }, 
-                {
-                 "height":8,
-                 "id":2063,
-                 "name":"",
-                 "properties":
-                    {
-                     "dungeonid":"65532"
-                    },
-                 "propertytypes":
-                    {
-                     "dungeonid":"string"
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":96,
-                 "x":80,
-                 "y":168
-                }, 
-                {
-                 "height":8,
-                 "id":2065,
-                 "name":"",
-                 "properties":
-                    {
-                     "dungeonid":"65532"
-                    },
-                 "propertytypes":
-                    {
-                     "dungeonid":"string"
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":72,
-                 "x":112,
-                 "y":88
-                }, 
-                {
-                 "height":80,
-                 "id":2078,
-                 "name":"",
-                 "properties":
-                    {
-                     "dungeonid":"65532"
-                    },
-                 "propertytypes":
-                    {
-                     "dungeonid":"string"
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":56,
-                 "x":112,
-                 "y":0
-                }, 
-                {
-                 "height":8,
-                 "id":2085,
-                 "name":"",
-                 "properties":
-                    {
-                     "dungeonid":"65532"
-                    },
-                 "propertytypes":
-                    {
-                     "dungeonid":"string"
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":80,
-                 "x":112,
-                 "y":96
-                }, 
-                {
-                 "height":8,
-                 "id":2101,
-                 "name":"",
-                 "properties":
-                    {
-                     "dungeonid":"65532"
-                    },
-                 "propertytypes":
-                    {
-                     "dungeonid":"string"
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":72,
-                 "x":96,
-                 "y":184
-                }, 
-                {
-                 "height":8,
-                 "id":2106,
-                 "name":"",
-                 "properties":
-                    {
-                     "dungeonid":"65532"
-                    },
-                 "propertytypes":
-                    {
-                     "dungeonid":"string"
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":80,
-                 "x":88,
-                 "y":176
-                }, 
-                {
                  "height":56,
-                 "id":2107,
+                 "id":2027,
                  "name":"",
                  "properties":
                     {
@@ -404,8 +263,8 @@
                  "y":112
                 }, 
                 {
-                 "height":8,
-                 "id":2110,
+                 "height":64,
+                 "id":2137,
                  "name":"",
                  "properties":
                     {
@@ -418,13 +277,32 @@
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":64,
-                 "x":104,
-                 "y":192
+                 "width":248,
+                 "x":16,
+                 "y":48
                 }, 
                 {
-                 "height":80,
-                 "id":2113,
+                 "height":64,
+                 "id":2144,
+                 "name":"",
+                 "properties":
+                    {
+                     "dungeonid":"65532"
+                    },
+                 "propertytypes":
+                    {
+                     "dungeonid":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":152,
+                 "x":16,
+                 "y":176
+                }, 
+                {
+                 "height":40,
+                 "id":2145,
                  "name":"",
                  "properties":
                     {
@@ -439,7 +317,26 @@
                  "visible":true,
                  "width":56,
                  "x":112,
-                 "y":200
+                 "y":240
+                }, 
+                {
+                 "height":8,
+                 "id":2147,
+                 "name":"",
+                 "properties":
+                    {
+                     "dungeonid":"65532"
+                    },
+                 "propertytypes":
+                    {
+                     "dungeonid":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":248,
+                 "x":16,
+                 "y":168
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -470,7 +367,7 @@
          "y":0
         }],
  "nextlayerid":12,
- "nextobjectid":2138,
+ "nextobjectid":2153,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.5.0",
@@ -486,11 +383,11 @@
         }, 
         {
          "firstgid":53,
-         "source":"..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/supports.json"
+         "source":"..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-category\/playerstation.json"
         }, 
         {
-         "firstgid":90,
-         "source":"..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-category\/playerstation.json"
+         "firstgid":58,
+         "source":"..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/supports.json"
         }, 
         {
          "firstgid":95,
@@ -506,10 +403,10 @@
         }, 
         {
          "firstgid":851,
-         "source":"..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-colonytag\/station.json"
+         "source":"..\/..\/..\/tilesets\/extrastation\/extrastationback.json"
         }, 
         {
-         "firstgid":881,
+         "firstgid":856,
          "source":"..\/..\/..\/tilesets\/frackinuniverse-custom\/fu_playerstation.json"
         }],
  "tilewidth":8,

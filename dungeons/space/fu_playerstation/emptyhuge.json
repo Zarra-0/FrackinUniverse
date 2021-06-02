@@ -1,33 +1,33 @@
 { "backgroundcolor":"#000000",
  "compressionlevel":-1,
- "height":35,
+ "height":101,
  "infinite":false,
  "layers":[
         {
          "compression":"zlib",
-         "data":"eJzt2EEKgCAQRuFBj5hN979JtRRCZgLlB9\/i4S4\/JBUsZlYSHTVe5rt\/UrL4M0cL5FiwYMGS7KzxdloXLGPL6D9ZbXnH6yPHgkXcorSPlM4XLH3c01iwYNnBovT+MtNyAwMdijM=",
+         "data":"eJzt3DEKAzEQBEFxfqL\/\/xdHlwiDw+2zqmByQWcK9lprXQ\/c+\/V70288bSc0YZ4mPZr0aNKjSY8mPZr0aNKjSY8mPZr0aNKjSY8mPZr0aNKjSY8mPZr0aNKjSY8mPZr0aNKjSY8mPZr0aNKjSY8mPZr0aNKjSY8mPZr0aNKjSY8mPZr0aNKjSY8mPZr0aNJzt7jvxTBvv+HDPE16NOnRpEeTHk16NOnRpGe\/Lco8fys9mvRo0qNJjyY9mvRo0qNJjyY9mvRo0qNJjyY9mvRo0qNJjyY9mvRo0qNJjyY9mvRo0qNJjyY9mvRo0qNJjyY9mvRo0qNJjyY9mvRo0qNJjyY9mvRo0qNJjyY9mvRo0rM3edr2Gz7fNv3G0\/bPTT5QEx3R",
          "encoding":"base64",
-         "height":35,
+         "height":101,
          "id":2,
          "name":"back",
          "opacity":0.5,
          "type":"tilelayer",
          "visible":true,
-         "width":35,
+         "width":101,
          "x":0,
          "y":0
         }, 
         {
          "compression":"zlib",
-         "data":"eJzt1bEJACAMRNGAMziZjftPYqkIygU0IP7AdeF4pEk2syympJ7djHtqtydjv8dyw6MYViYsWLBgec1SHfnpLliwYMGCJdbCP8KCBQuWWItimndPW2aPavH0N3I1dKM=",
+         "data":"eJzt3bsJxDAURUGDa3Bl7r8X4woM\/sB5uzOgSOFJFF0ty0z7+uz+LdsHZ6pKEwAAAAAAAAAAAAAAAAAAAAAA7ju3YuzFNGgBAMC\/8ybu0AIAAAAAAAC4a\/Ifjb9Kkx5NejTp0aRHkx5NejTp0aRHkx5NejTp0aRHkx5NejTp0aRHkx5NejTp0aRHkx5NejTp0aRHk56pTa62YiZvyWjScwDpBwlm",
          "encoding":"base64",
-         "height":35,
+         "height":101,
          "id":3,
          "name":"front",
          "opacity":1,
          "type":"tilelayer",
          "visible":true,
-         "width":35,
+         "width":101,
          "x":0,
          "y":0
         }, 
@@ -50,6 +50,50 @@
          "name":"objects",
          "objects":[
                 {
+                 "gid":90,
+                 "height":65,
+                 "id":2032,
+                 "name":"",
+                 "properties":
+                    {
+                     "object":"fu_expansionslot",
+                     "parameters":"{ \"expandDirection\" : [1, 0] }"
+                    },
+                 "propertytypes":
+                    {
+                     "object":"string",
+                     "parameters":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":32,
+                 "x":784,
+                 "y":440
+                }, 
+                {
+                 "gid":90,
+                 "height":65,
+                 "id":2033,
+                 "name":"",
+                 "properties":
+                    {
+                     "object":"fu_expansionslot",
+                     "parameters":"{ \"expandDirection\" : [-1, 0] }"
+                    },
+                 "propertytypes":
+                    {
+                     "object":"string",
+                     "parameters":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":32,
+                 "x":-8,
+                 "y":440
+                }, 
+                {
                  "gid":92,
                  "height":25,
                  "id":2034,
@@ -68,7 +112,7 @@
                  "type":"",
                  "visible":true,
                  "width":72,
-                 "x":104,
+                 "x":368,
                  "y":24
                 }, 
                 {
@@ -90,32 +134,8 @@
                  "type":"",
                  "visible":true,
                  "width":72,
-                 "x":104,
-                 "y":288
-                }, 
-                {
-                 "gid":468,
-                 "height":6,
-                 "id":2045,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":24,
-                 "x":128,
-                 "y":120
-                }, 
-                {
-                 "gid":468,
-                 "height":6,
-                 "id":2046,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":24,
-                 "x":128,
-                 "y":168
+                 "x":368,
+                 "y":816
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -165,45 +185,7 @@
          "name":"outside the map",
          "objects":[
                 {
-                 "height":16,
-                 "id":2026,
-                 "name":"",
-                 "properties":
-                    {
-                     "dungeonid":"65532"
-                    },
-                 "propertytypes":
-                    {
-                     "dungeonid":"string"
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":56,
-                 "x":112,
-                 "y":0
-                }, 
-                {
-                 "height":16,
-                 "id":2028,
-                 "name":"",
-                 "properties":
-                    {
-                     "dungeonid":"65532"
-                    },
-                 "propertytypes":
-                    {
-                     "dungeonid":"string"
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":56,
-                 "x":112,
-                 "y":264
-                }, 
-                {
-                 "height":248,
+                 "height":808,
                  "id":2038,
                  "name":"",
                  "properties":
@@ -217,9 +199,9 @@
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":88,
-                 "x":96,
-                 "y":16
+                 "width":808,
+                 "x":0,
+                 "y":0
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -250,7 +232,7 @@
          "y":0
         }],
  "nextlayerid":12,
- "nextobjectid":2047,
+ "nextobjectid":2228,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.5.0",
@@ -291,5 +273,5 @@
  "tilewidth":8,
  "type":"map",
  "version":1.1,
- "width":35
+ "width":101
 }

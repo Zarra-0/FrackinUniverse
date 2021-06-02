@@ -5,7 +5,7 @@
  "layers":[
         {
          "compression":"zlib",
-         "data":"eJzt2DkOgDAMBEArvJjjgTyNUNAg+RSxDGyxrXdEYUc0or05M09EWrwzI7E4Mj1nlt7FJcsACyxvt6y9k8ufv4tkyfZolqgnsq8tFqvn6o\/eDqvF4rnfMW7O5uiUIs2BBRZYnrdk7hNuv3j27khLpTsUTSWL5sm24F0HCyzfsFT7\/zLKcQApkQ55",
+         "data":"eJzt2EsKgDAMBNBQT+zngB7NCgpSrPmZVmEWs00eXUzERLQmZcaBiIt2piUSR0vPninvqqWVARZY\/m6Z885agndTmY7vInY08KgcHo+gr9UOjefcL7wdJofUU96x2pzFYZDOgQUWWN63cB3gcRxdyfaLsHfNnsv98PS+21Pc1JBbaXCEWTjPjSPU0vG7TvsusMACy0O+9v8lyrEBaYbx5g==",
          "encoding":"base64",
          "height":35,
          "id":2,
@@ -19,7 +19,7 @@
         }, 
         {
          "compression":"zlib",
-         "data":"eJzt1rEOwCAIBFCSfoMf6v8vxq0TPY6CSXuXMBnxTeAwsxGseZmbfR7tydR+B7F0eGSRRZb\/Wqo9iKXLg1pYz\/0OWmjQfqyjysMke\/\/tyONHHj9f85yaJdl5V+lhdkTEUr0TEU+1JeLpsKB\/BllkkUWWjOfJwvRd7HmQWQ==",
+         "data":"eJzt1kEKACEIBVBhztBBu\/9maBFEC+frYJj8D64ieyutiUgzVn9EzTi39vTUeAexnPDQQgstdSzzDdQS5UEd0R6r449nvaOVJ2jvaIfVwzBMrWSaL5nmbrZ9dNOezvZ\/2T2IJdJBCy201LNMz5fF0\/cF68aBUQ==",
          "encoding":"base64",
          "height":35,
          "id":3,
@@ -247,8 +247,8 @@
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":96,
-                 "x":104,
+                 "width":120,
+                 "x":80,
                  "y":104
                 }, 
                 {
@@ -266,8 +266,8 @@
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":64,
-                 "x":112,
+                 "width":72,
+                 "x":104,
                  "y":80
                 }, 
                 {
@@ -285,7 +285,7 @@
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":96,
+                 "width":120,
                  "x":80,
                  "y":168
                 }, 
@@ -304,8 +304,8 @@
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":72,
-                 "x":112,
+                 "width":88,
+                 "x":96,
                  "y":88
                 }, 
                 {
@@ -342,8 +342,8 @@
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":80,
-                 "x":112,
+                 "width":104,
+                 "x":88,
                  "y":96
                 }, 
                 {
@@ -361,7 +361,7 @@
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":72,
+                 "width":88,
                  "x":96,
                  "y":184
                 }, 
@@ -380,7 +380,7 @@
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":80,
+                 "width":104,
                  "x":88,
                  "y":176
                 }, 
@@ -418,7 +418,7 @@
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":64,
+                 "width":72,
                  "x":104,
                  "y":192
                 }, 

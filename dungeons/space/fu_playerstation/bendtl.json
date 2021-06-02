@@ -1,26 +1,8 @@
 { "backgroundcolor":"#000000",
  "compressionlevel":-1,
- "editorsettings":
-    {
-     "export":
-        {
-         "target":"."
-        }
-    },
  "height":35,
  "infinite":false,
  "layers":[
-        {
-         "draworder":"topdown",
-         "id":1,
-         "name":"background objects",
-         "objects":[],
-         "opacity":1,
-         "type":"objectgroup",
-         "visible":true,
-         "x":0,
-         "y":0
-        }, 
         {
          "compression":"zlib",
          "data":"eJzt1DEOgCAMRuEmHFHFI3MtdGAzWBowv8kb3sKAXxpsMbMy0Jb8jdwbScmSr2\/sjjIWLFh+YTmSv9UWz0xaKo6Ipe3r3qy9b2SW5e0dKlt6c\/zacp+dD2UsWMQtSv\/R7N2yau9GHERERCpVXWsRaQ==",
@@ -371,7 +353,7 @@
  "nextobjectid":2049,
  "orientation":"orthogonal",
  "renderorder":"right-down",
- "tiledversion":"1.4.2",
+ "tiledversion":"1.5.0",
  "tileheight":8,
  "tilesets":[
         {
