@@ -46,7 +46,7 @@ function CrystalStorm:charge()
 	animator.setParticleEmitterActive(self.elementalType .. "charge", true)
 	activeItem.setCursor("/cursors/charge2.cursor")
 
-	local chargeTimer = self.stances.charge.duration
+	local chargeTimer = self.stances.charge.duration * (1+status.stat("focalCastTimeMult"))
 	while chargeTimer > 0 and self.fireMode == (self.activatingFireMode or self.abilitySlot) do
 		chargeTimer = chargeTimer - self.dt
 
@@ -124,7 +124,7 @@ end
 
 function CrystalStorm:targetValid(aimPos)
 	local focusPos = self:focusPosition()
-	return world.magnitude(focusPos, aimPos) <= self.maxCastRange
+	return world.magnitude(focusPos, aimPos) <= (self.maxCastRange*(1+status.stat("focalRangeMult")))
 	and not world.lineTileCollision(mcontroller.position(), focusPos)
 	and not world.lineTileCollision(focusPos, aimPos)
 end
@@ -145,7 +145,14 @@ function CrystalStorm:createProjectiles()
 	--local basePos = vec2.sub(aimPosition,{0,5})
 	local basePos = aimPosition
 	self.castPosition = basePos
+
 	local pCount = self.projectileCount or 1
+	-- bonus projectiles
+	local bonus=status.stat("focalProjectileCountBonus")
+	local flooredBonus=math.floor(bonus)
+	if bonus~=flooredBonus then bonus=math.random()<bonus end
+	if bonus then bonus=flooredBonus+1 end
+	pCount=pCount+bonus
 
 	local pParams = copy(self.projectileParameters)
 	pParams.power = self.baseDamageFactor * pParams.baseDamage * config.getParameter("damageLevelMultiplier") / pCount
