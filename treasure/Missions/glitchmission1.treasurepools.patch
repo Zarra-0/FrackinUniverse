@@ -3,7 +3,7 @@
   "op": "add",
   "path": "/glitchmission1Reward/0/1/pool/-",
   "value": {
-   "weight": 0.0075,
+   "weight": 0.015,
    "item": "fuglitchblueprinta"
   }
  },
@@ -11,7 +11,7 @@
   "op": "add",
   "path": "/glitchmission1Reward/0/1/pool/-",
   "value": {
-   "weight": 0.0075,
+   "weight": 0.015,
    "item": "fuglitchblueprintm"
   }
  },
@@ -19,7 +19,7 @@
   "op": "add",
   "path": "/glitchmission1Reward/0/1/pool/-",
   "value": {
-   "weight": 0.0075,
+   "weight": 0.015,
    "item": "fuglitchblueprints"
   }
  },

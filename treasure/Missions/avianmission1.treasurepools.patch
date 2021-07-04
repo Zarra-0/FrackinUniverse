@@ -3,7 +3,7 @@
   "op": "add",
   "path": "/avianmission1Reward/0/1/pool/-",
   "value": {
-   "weight": 0.005,
+   "weight": 0.01,
    "item": "fuavianblueprinta"
   }
  },
@@ -11,7 +11,7 @@
   "op": "add",
   "path": "/avianmission1Reward/0/1/pool/-",
   "value": {
-   "weight": 0.005,
+   "weight": 0.01,
    "item": "fuavianblueprintm"
   }
  },
@@ -19,7 +19,7 @@
   "op": "add",
   "path": "/avianmission1Reward/0/1/pool/-",
   "value": {
-   "weight": 0.005,
+   "weight": 0.01,
    "item": "fuavianblueprints"
   }
  },

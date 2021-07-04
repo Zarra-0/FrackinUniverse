@@ -1,6 +1,6 @@
 {
   "itemName" : "fuhumanblueprintm",
-  "price" : 1500,
+  "price" : 4500,
   "rarity" : "legendary",
   "description" : "The blueprints for potent Human armour.",
   "shortdescription" : "Human Schematics (Power)",
@@ -14,6 +14,7 @@
   "animation" : "randomblueprint.animation",
 
   "scripts" : ["furacialblueprint.lua"],
+  "failMessage" : "You already know these recipes!",
 
   "swingTime" : 0.15,
 

@@ -16,7 +16,7 @@
   "op": "add",
   "path": "/miningtreasurelore/0/1/pool/-",
   "value": {
-   "weight": 0.005,
+   "weight": 0.01,
    "item": "fuhumanblueprinta"
   }
  },
@@ -24,7 +24,7 @@
   "op": "add",
   "path": "/miningtreasurelore/0/1/pool/-",
   "value": {
-   "weight": 0.005,
+   "weight": 0.01,
    "item": "fuhumanblueprintm"
   }
  },
@@ -32,7 +32,7 @@
   "op": "add",
   "path": "/miningtreasurelore/0/1/pool/-",
   "value": {
-   "weight": 0.005,
+   "weight": 0.01,
    "item": "fuhumanblueprints"
   }
  },

@@ -3,7 +3,7 @@
   "op": "add",
   "path": "/florantreasurelore/0/1/pool/-",
   "value": {
-   "weight": 0.005,
+   "weight": 0.01,
    "item": "fufloranblueprinta"
   }
  },
@@ -11,7 +11,7 @@
   "op": "add",
   "path": "/florantreasurelore/0/1/pool/-",
   "value": {
-   "weight": 0.005,
+   "weight": 0.01,
    "item": "fufloranblueprintm"
   }
  },
@@ -19,7 +19,7 @@
   "op": "add",
   "path": "/florantreasurelore/0/1/pool/-",
   "value": {
-   "weight": 0.005,
+   "weight": 0.01,
    "item": "fufloranblueprints"
   }
  },
