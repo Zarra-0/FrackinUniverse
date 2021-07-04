@@ -86,7 +86,6 @@
 				{"item": "skathcupboard"},
 				{"item": "skathdiagonaldoor"},
 				{"item": "skathfridge"},
-				{"item": "skathfusionreactor"},
 				{"item": "skathmedstorage"},
 				{"item": "skathmetaltable"},
 				{"item": "skathmicrowave"},
@@ -692,6 +691,18 @@
 							"name": "elderpillarcapmaterial"
 						},
 						"price": 70
+					},
+					{
+						"item": {
+							"name": "elderlightsensor"
+						},
+						"price": 50
+					},
+					{
+						"item": {
+							"name": "elderliquidsensor"
+						},
+						"price": 50
 					}
 				]
 			]
