@@ -58,9 +58,11 @@ function init()
 
 	-- Race checks
 	self.species = world.entitySpecies(activeItem.ownerEntityId())
+
 end
 
 function update(dt, fireMode, shiftHeld)
+
 	self.cooldownTimer = math.max(0, self.cooldownTimer)
 
 	updateStance(dt)
@@ -124,7 +126,6 @@ function uninit()
 	activeItem.setItemShieldPolys()
 	activeItem.setItemDamageSources()
 	status.clearPersistentEffects("magnorbShield")
-	status.clearPersistentEffects("magnorbBonus")
 	animator.stopAllSounds("shieldLoop")
 end
 
@@ -154,7 +155,7 @@ end
 
 function fire(orbIndex)
 	local params = copy(self.projectileParameters)
-	params.powerMultiplier = activeItem.ownerPowerMultiplier()
+	params.powerMultiplier = activeItem.ownerPowerMultiplier() 
 
 	params.power = Crits.setCritDamage(self, params.power)
 

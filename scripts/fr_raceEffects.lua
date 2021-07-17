@@ -1,8 +1,10 @@
 require("/scripts/vec2.lua")
 require("/scripts/FRHelper.lua")
+require ("/items/active/weapons/masteries.lua")--this will load "/items/active/tagCaching.lua"
 
 local FR_old_init = init
 local FR_old_update = update
+local FR_old_uninit = uninit
 
 function init(...)
 	if FR_old_init then
@@ -11,8 +13,8 @@ function init(...)
 	self.lastYPosition = 0
 	self.lastYVelocity = 0
 	self.fallDistance = 0
-
 	message.setHandler("FR_getSpecies", function() return self.species end)
+	masteries.update(0)
 end
 
 function update(dt)
@@ -41,6 +43,7 @@ function update(dt)
 			for _, eff in pairs(self.helper.speciesConfig.special or {}) do
 				status.removeEphemeralEffect(eff)
 			end
+			status.clearPersistentEffects("FR_special")
 			self.helper:clearPersistent()
 		end
 
@@ -88,14 +91,17 @@ function update(dt)
 		-- Add any other special effects
 		if self.helper.speciesConfig.special then
 			for _,thing in pairs(self.helper.speciesConfig.special) do
-				status.addEphemeralEffect(thing,math.huge)
+				status.addPersistentEffect("FR_special",thing,math.huge)
 			end
 		end
 	end
 
 	-- Update stuff
 	--self.helper:clearPersistent()
-	self.helper:applyControlModifiers()
+	if self and self.helper then
+		--khe's note. never, ever, fucking, ever send this without parameters. the script previously assumed defaults. THIS IS NOT CORRECT BEHAVIOR. modifiers were stacking from multiple contexts.
+		self.helper:applyControlModifiers(self.helper.controlModifiers,self.helper.controlParameters)
+	end
 	self.helper:runScripts("racialscript", self, dt)
 
 	-- Breath handling
@@ -103,11 +109,24 @@ function update(dt)
 	if entity.entityType() ~= "npc" then
 		local mouthPosition = vec2.add(mcontroller.position(), status.statusProperty("mouthPosition"))
 		if status.statPositive("breathProtection") or world.breathable(mouthPosition)
-			or status.statPositive("waterbreathProtection") and world.liquidAt(mouthPosition)
-			then
+		or status.statPositive("waterbreathProtection") and world.liquidAt(mouthPosition)
+		then
 			status.modifyResource("breath", status.stat("breathRegenerationRate") * dt)
 		else
 			status.modifyResource("breath", -status.stat("breathDepletionRate") * dt)
 		end
 	end
+	tagCaching.update()
+	masteries.update(dt)
 end
+
+function uninit(...)
+	masteries.reset()
+	if FR_old_uninit then
+		FR_old_uninit(...)
+	end
+end
+
+--function getLevelByExp(exp)
+--    return math.floor((math.sqrt(3) * math.sqrt(243*(exp+1)^2-48600*(exp+1)+3680000)+27 * (exp+1)-2700)^(1/3)/30^(2/3)-(5*10^(2/3))/(3^(1/3)*(math.sqrt(3)*math.sqrt(243*(exp+1)^2-48600*(exp+1)+3680000)+27*(exp+1)-2700)^(1/3))+2)
+--end

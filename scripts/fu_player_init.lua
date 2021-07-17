@@ -14,6 +14,7 @@ function init(...)
 		origInit(...)
 	end
 	didInit=true
+	idiotitem=root.itemConfig("idiotitem")
 	doIdiotCheck=true
 	sb.logInfo("----- FU player init -----")
 	ffunknownConfig=root.assetJson("/scripts/ffunknownconfig.config")
@@ -37,7 +38,9 @@ function init(...)
 	message.setHandler("player.isAdmin",player.isAdmin)
 	message.setHandler("player.uniqueId",player.uniqueId)
 	message.setHandler("player.worldId",player.worldId)
+	message.setHandler("player.hasCompletedQuest",function (_,_,...) return player.hasCompletedQuest(...) end)
 	status.setStatusProperty("player.worldId",player.worldId())
+	status.setStatusProperty("player.ownShipWorldId",player.ownShipWorldId())
 	message.setHandler("player.availableTechs", player.availableTechs)
 	message.setHandler("player.enabledTechs", player.enabledTechs)
 	message.setHandler("player.shipUpgrades", player.shipUpgrades)
@@ -119,7 +122,7 @@ end
 function idiotCheck(dt)
 	if doIdiotCheck then
 		if world.entityType(entity.id()) == "player" then --can't send radio messages to nonexistent entities. this is the case when players are loading in.
-			local idiotitem=root.itemConfig("idiotitem") -- FR detection.
+			--local idiotitem=root.itemConfig("idiotitem") -- FR detection.
 			if idiotitem then
 				world.sendEntityMessage(entity.id(),"queueRadioMessage","fu_frdetectedmessage") -- tell them they're a grounded idiot.
 				if (not world.getProperty("ship.fuel")) then

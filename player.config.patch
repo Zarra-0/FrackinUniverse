@@ -94,7 +94,6 @@
 
 	// Space Station Charisma Stat
 	[ { "op": "add", "path": "/statusControllerSettings/stats/fuCharisma", "value": { "baseValue" : 1.00 } } ],
-
 	[ { "op": "add", "path": "/statusControllerSettings/primaryScriptSources/-", "value": "/stats/player_primary_bars.lua" } ],
 	[ { "op": "add", "path": "/statusControllerSettings/primaryScriptSources/-" , "value": "/scripts/fr_raceEffects.lua" } ],
 	[ { "op": "add", "path": "/statusControllerSettings/primaryScriptSources/-","value": "/stats/cat_primary.lua"} ],
@@ -128,6 +127,9 @@
 
 	// Companiom Uniform Slot
 	[ { "op": "add", "path": "/companionsConfig/uniformSlots/head", "value": ["headCosmetic", "head" ]} ],
+	
+	// lessen diminishing returns on crew benefits.
+	[ { "op": "replace", "path": "/companionsConfig/shipUpgradeDiminishingReturns", "value": "0.5833333333" } ],
 
 	// Crew Medic changes
 	[ { "op": "replace", "path": "/companionsConfig/crewBenefits/shipRegeneration/0", "value": "fucrewmedicshipregeneration2" } ],
