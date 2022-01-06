@@ -10,5 +10,5 @@
 		"timewarp.lua"
 	],
 
-	"animationConfig" : "warp.animation"
+	"animationConfig" : "timewarp.animation"
 }
