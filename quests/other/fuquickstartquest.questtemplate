@@ -1,0 +1,41 @@
+{
+  "id" : "fuquickstartquest",
+  "prerequisites" : [ "bootship" ],
+  "mainQuest" : true,
+  "title" : "Getting Started",
+  "text" : "We are currently in orbit around an unknown world. The ship is heavily damaged and we are unable to leave orbit. I suggest you ^green;beam down to the planet's surface using the ^orange;teleporter^white;, and search for supplies and perhaps a means of fixing the ship.",
+  "completionText" : "Thank you for joining me dear. With your help I know we can triumph.",
+  "moneyRange" : [50, 50],
+  "rewards" : [
+    [ ["rewardbag", 1] ]
+  ],
+  "canBeAbandoned" : false,
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/story/fuquickstartquest.lua",
+  "scriptConfig" : {
+    "portraits" : {
+      "questStarted" : "sail",
+      "questComplete" : "questReceiver"
+    },
+
+    "descriptions" : {},
+
+    "shipUpgrade" : {
+      "capabilities" : ["teleport"]
+    },
+
+    "outpostBookmark" : {
+      "bookmarkName" : "Outpost - The Ark",
+      "targetName" : "",
+      "icon" : "outpost",
+      "target" : ["instanceworld:outpost", "arkteleporter"]
+    },
+
+    "outpostBookmark2" : {
+      "bookmarkName" : "Science Outpost",
+      "targetName" : "",
+      "icon" : "scienceoutpost",
+      "target" : ["instanceworld:scienceoutpost", "scienceoutpost"]
+    }
+  }
+}
