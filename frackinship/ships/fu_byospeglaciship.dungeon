@@ -1,0 +1,21 @@
+{
+  "metadata" : {
+    "name" : "fu_byospeglaciship",
+    "species" : "novakid",
+    "rules" : [],
+    "protected" : false,
+    "anchor" : [ "fu_byospeglaciship"],
+    "maxRadius" : 256,
+    "maxParts" : 1
+  },
+
+  "parts" : [
+    {
+      "name" : "fu_byospeglaciship",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "fu_byospeglaciship.json" ]
+    }
+  ]
+}

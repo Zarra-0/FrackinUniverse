@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "fu_byostechstation", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "fupeglacibyos_techstation", "count" : 1
+  },
+  "groups" : [ "fu_shipcrafting", "furniture", "all" ],
+  "duration" : 0.01
+}

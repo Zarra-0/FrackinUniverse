@@ -1,0 +1,75 @@
+{
+  "objectName" : "fupeglacibyos_captainschair",
+  "colonyTags" : ["peglaci","misc"],
+  "itemTags" : ["captainschair"],
+  "printable" : false,
+  "rarity" : "Common",
+  "objectType" : "loungeable",
+
+  "description" : "The utmost in comfort and efficiency of design for long journeys. Extract to return the BYOS captain's chair.",
+  "shortdescription" : "Peglaci Captain's Chair",
+  "race" : "fupeglaci",
+  "category" : "furniture",
+
+  "apexDescription" : "Quite oddly designed, and not exactly comfortable. What are all these probes for?",
+  "avianDescription" : "A Peglaci control chair. Looks very advanced, and somewhat comfortable.",
+  "floranDescription" : "Chair keeps hunger away with no foodsss!",
+  "glitchDescription" : "Observant. This chair provides comfort and medical care for long journeys.",
+  "humanDescription" : "Funky chair! It looks like it has some sort of life-support built in.",
+  "hylotlDescription" : "A command chair with built-in life support systems. Quite elegant.",
+  "novakidDescription" : "The Captain's chair, with bonus medical equipment. Pretty weird!",
+  "fukirhosDescription" : "Enough medical equipment that I could fly forever. Let's see what this babe can do.",
+  "fumantiziDescription" : "The life support system in this chair could fetch a pretty penny.",
+  "shadowDescription" : "Chair.",
+  "slimepersonDescription" : "Looks like a captain's chair.  I could navigate the ship from here, but its life support system isn't set up for me.",
+  "peglaciDescription" : "The captain's seat of every Peacekeeper ship comes equipped with a life support system. Very nice for those long voyages.",
+  "fupeglaciDescription" : "The captain's seat of every Peacekeeper ship comes equipped with a life support system. Very nice for those long voyages.",
+
+  "aegiDescription" : "This Captain's chair grants access to the navigation console.",
+  "avikanDescription" : "The Captain's chair - it is a true honour to sit on one of these.",
+  "draunaarDescription" : "The Captain's chair. It grants access to the navigation console and flight controls.",
+  "trinkDescription" : "This Captain's chair has specialized sensors, allowing only its owner to use the navigator.",
+  "hymidDescription" : "A Captain's chair. The ship's navigation console is linked to it.",
+  "notixDescription" : "The Captain's chair, granting access to the starship's navigator.",
+  "jorgasianDescription" : "The ship's navigation console can be accessed from this Captain's chair.",
+  "drodenDescription" : "Detected Captain's chair. Grants access to navigation console.",
+  "akkimariDescription" : "Chair-captain. Linked to console-navigation.",
+
+  "inventoryIcon" : "fupeglacibyos_captainschairicon.png",
+  "orientations" : [
+    {
+      "image" : "fupeglacibyos_captainschair.png:<color>.<frame>",
+      "imagePosition" : [-8, 0],
+      "frames" : 5,
+      "animationCycle" : 1,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "flipImages" : true,
+      "direction" : "left",
+      "sitPosition" : [8, 18]
+    },
+    {
+      "image" : "fupeglacibyos_captainschair.png:<color>.<frame>",
+      "imagePosition" : [-8, 0],
+      "frames" : 5,
+      "animationCycle" : 1,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "right",
+      "sitPosition" : [8, 18]
+    }
+  ],
+
+  "scripts" : [ "/objects/ship/fu_shipobjectplanetinteraction.lua", "/objects/ship/fu_byosobjectdeath.lua" ],
+  "scriptDelta" : 20,
+
+  "interactAction" : "ScriptPane",
+  "interactData" : "/interface/cockpit/cockpit.config",
+
+  "planetInteractAction" : "ScriptPane",
+  "planetInteractData" : "/interface/scripted/fu_planetcockpit/fu_planetcockpit.config",
+
+  "sitFlipDirection" : false
+}

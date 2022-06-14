@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "fu_byosfuelhatch", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "fupeglacibyos_fuelhatch", "count" : 1
+  },
+  "groups" : [ "fu_shipcrafting", "furniture", "all" ],
+  "duration" : 0.01
+}

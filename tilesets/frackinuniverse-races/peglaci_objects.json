@@ -1,16 +1,16 @@
 {
  "name":"fu_races/peglaci-objects",
- 
+
  "columns":0,
  "margin":0,
  "spacing":0,
- 
+
  "tileheight":8,
  "tilewidth":8,
- 
- "tilecount":73,
+
+ "tilecount":78,
  "type":"tileset",
- 
+
  "tileproperties":
     {
         "0" : {
@@ -450,6 +450,36 @@
             "imagePositionY":"-64",
             "object":"peglacishippainting",
             "tilesetDirection":"right"
+        },
+        "73" : {
+            "imagePositionX":"-8",
+            "imagePositionY":"0",
+            "object":"fupeglacibyos_captainschair",
+            "tilesetDirection":"right"
+        },
+        "74" : {
+            "imagePositionX":"-8",
+            "imagePositionY":"-8",
+            "object":"fupeglacibyos_fuelhatch",
+            "tilesetDirection":"right"
+        },
+        "75" : {
+            "imagePositionX":"-16",
+            "imagePositionY":"-8",
+            "object":"fupeglacibyos_shiplocker",
+            "tilesetDirection":"right"
+        },
+        "76" : {
+            "imagePositionX":"0",
+            "imagePositionY":"0",
+            "object":"fupeglacibyos_techstation",
+            "tilesetDirection":"right"
+        },
+        "77" : {
+            "imagePositionX":"0",
+            "imagePositionY":"0",
+            "object":"fupeglacibyos_teleporter",
+            "tilesetDirection":"right"
         }
     },
  "tiles":
@@ -672,6 +702,21 @@
         },
         "72" : {
             "image" : "../../tiled/frackinuniverse-custom/objects/peglaci/peglacishippainting.png"
+        },
+        "73" : {
+            "image" : "../../tiled/frackinuniverse-custom/objects/peglaci/fupeglacibyos_captainschair.png"
+        },
+        "74" : {
+            "image" : "../../tiled/frackinuniverse-custom/objects/peglaci/fupeglacibyos_fuelhatch.png"
+        },
+        "75" : {
+            "image" : "../../tiled/frackinuniverse-custom/objects/peglaci/fupeglacibyos_shiplocker.png"
+        },
+        "76" : {
+            "image" : "../../tiled/frackinuniverse-custom/objects/peglaci/fupeglacibyos_techstation.png"
+        },
+        "77" : {
+            "image" : "../../tiled/frackinuniverse-custom/objects/peglaci/fupeglacibyos_teleporter.png"
         }
     }
 }
