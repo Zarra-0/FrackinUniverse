@@ -3081,8 +3081,10 @@
 				"surface": {
 					"primaryRegion": ["eden"],
 					"secondaryRegions": ["wartfield", "wastelandmini", "steamspring", "prism", "fieldofbracken", "birchforest", "cloudforest", "rainbowforest", "swamp", "fieldofwheat", "fieldofsugar", "fieldofpotato", "fieldofcorn", "fieldofgrape", "fieldoftomato", "pineforest", "flowerforest", "snowyforest", "giantflowers", "forest", "jungle", "savannah"],
-					"dungeonCountRange": [0, 0],
-					"dungeons": []
+					"dungeonCountRange": [1, 1],
+					"dungeons": [
+						[1.0, "thelusianhive"]
+          ]
 				},
 				"subsurface": {
 					"primaryRegion": ["arborealunderground"]

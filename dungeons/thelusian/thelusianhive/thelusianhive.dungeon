@@ -1,0 +1,57 @@
+{
+  "metadata" : {
+    "name" : "thelusianhive",
+    "species" : "thelusian",
+    "rules" : [ ],
+    "anchor" : [ "entrance1" ],
+    "gravity" : 80,
+    "maxRadius" : 1000000,
+    "maxParts" : 20,
+    "protected" : false
+  },
+
+  "parts" : [
+    {
+      "name" : "entrance1",
+      "rules" : [
+        [ "doNotCombineWith", [ "entrance2" ] ],
+        [ "maxSpawnCount", [1] ],
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "entrance1.json" ]
+    },
+//    {
+//      "name" : "entrance2",
+//      "rules" : [
+//        [ "doNotCombineWith", [ "entrance1" ] ],
+//        [ "maxSpawnCount", [1] ]
+//      ],
+//      "def" : [ "tmx", "entrance2.json" ]
+//    },
+
+    {
+      "name" : "refuse1",
+      "rules" : [
+        [ "ignorePartMaximumRule" ],
+        [ "doNotConnectToPart", [ "refuse2", "refuse3" ] ]
+      ],
+      "def" : [ "tmx", "refuse1.json" ]
+    },
+    {
+      "name" : "refuse2",
+      "rules" : [
+        [ "ignorePartMaximumRule" ],
+        [ "doNotConnectToPart", [ "refuse1", "refuse3" ] ]
+      ],
+      "def" : [ "tmx", "refuse2.json" ]
+    },
+    {
+      "name" : "refuse3",
+      "rules" : [
+        [ "ignorePartMaximumRule" ],
+        [ "doNotConnectToPart", [ "refuse1", "refuse2" ] ]
+      ],
+      "def" : [ "tmx", "refuse3.json" ]
+    }
+  ]
+}
