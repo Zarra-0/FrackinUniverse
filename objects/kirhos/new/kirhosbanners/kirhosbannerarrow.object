@@ -1,0 +1,57 @@
+{
+  "objectName" : "kirhosbannerarrow",
+  "colonyTags" : ["kirhos","light"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 90,
+  "lightColor" : [91, 255, 26],
+  "lightPosition" : [0, 0],
+
+  "shortdescription" : "Kirhos Banner (Arrow)",
+  "description" : "Colourful lights found in clubs.",
+  "race" : "kirhos",
+
+  "flickerPeriod" : 0.4,
+  "flickerMinIntensity" : 0.85,
+  "flickerMaxIntensity" : 1.0,
+  "flickerPeriodVariance" : 0.2,
+  "flickerIntensityVariance" : 2.0,
+  "pointLight" : true,
+  "pointBeam" : 2,
+  "beamAmbience" : 0.5,
+
+  "inventoryIcon" : "clubceilinglightsgreenicon.png",
+  "orientations" : [
+    {
+      "image" : "clubceilinglightsgreen.png:<color>",
+      "imagePosition" : [-8, 0],
+      "animationPosition" : [-8, 0],
+      "direction" : "right",
+      "lightPosition" : [0, 0],
+      "beamAngle" : -60,
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+    },
+    {
+      "image" : "clubceilinglightsgreen.png:<color>",
+      "imagePosition" : [-8, 0],
+      "animationPosition" : [-8, 0],
+      "direction" : "left",
+      "lightPosition" : [0, 0],
+      "beamAngle" : -120,
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+    }
+  ],
+
+  "animation" : "clubceilinglightsgreen.animation",
+  "animationParts" : {
+    "bg" : "clubceilinglightsgreen.png",
+    "fg" : "clubceilinglightsgreenlit.png"
+  },
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inputNodes" : [ [0, 4] ]
+}
